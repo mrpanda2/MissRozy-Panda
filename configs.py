@@ -42,7 +42,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "dm_files_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002092093156"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7216492043"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://lazydeveloperr:lazydeveloperr@Cluster0.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://dmlazybot:dmlazybot@dmlazybot.3wqmdlv.mongodb.net/?retryWrites=true&w=majority&appName=DMLazybot")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002197998836")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002221537399")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
